@@ -166,7 +166,7 @@
                   <img src="{{ 'logo.png' | asset_url }}" alt="{{ shop.name }}" itemprop="logo">
                 </a>
               {% else %}
-                <a href="/" itemprop="url">{{ shop.name }}</a>
+                <a href="/" itemprop="url">Title: {{ shop.name }}</a>
               {% endif %}
             {% if template == 'index' %}
               </h1>
